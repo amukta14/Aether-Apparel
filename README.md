@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aether Apparel
+
+A modern e-commerce platform built with Next.js, featuring a responsive design and comprehensive shopping experience.
+
+## Features
+
+### User Features
+- User authentication and authorization
+- Product browsing with advanced filtering and sorting
+- Shopping cart functionality
+- Wishlist management
+- Order tracking and history
+- Dark/Light theme support
+- Responsive design for all devices
+
+### Admin Features
+- Secure admin dashboard
+- Product management (CRUD operations)
+- Order management
+- User management
+- Inventory tracking
+
+### Shopping Experience
+- Advanced product filtering by category and price
+- Real-time price range filtering
+- Product search functionality
+- Voice search capability (placeholder)
+- Responsive product grid
+- Detailed product views
+
+## Tech Stack
+
+### Frontend
+- Next.js 15.3.2
+- React 19
+- TypeScript
+- Tailwind CSS
+- Shadcn UI Components
+- Zustand (State Management)
+- React Hook Form
+- Zod (Form Validation)
+
+### Backend
+- Next.js API Routes
+- Supabase (Database & Authentication)
+- NextAuth.js
+- bcryptjs (Password Hashing)
+
+### Development Tools
+- ESLint
+- Prettier
+- Turbopack
+- TypeScript
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/aether-apparel.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables
+Create a `.env.local` file with the following variables:
+```
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+NEXTAUTH_SECRET=your_nextauth_secret
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Run the development server
+```bash
+npm run dev
+```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The application is configured for deployment on Render. The `render.yaml` file contains the necessary configuration for deployment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
