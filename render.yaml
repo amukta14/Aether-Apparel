@@ -1,0 +1,23 @@
+services:
+- type: web
+  name: aura-decor # You can change this
+  runtime: node
+  region: oregon # Optional: choose a region e.g., frankfurt, oregon, ohio, singapore
+  plan: free # Optional: or your desired plan
+  branch: main # Or your deployment branch
+  healthCheckPath: /
+  buildCommand: "npm install && npm run build"
+  startCommand: "npm run start"
+  envVars:
+  - key: NODE_VERSION
+    value: 18
+  # Add your environment variables from .env.local here
+  # Example:
+  # - key: DATABASE_URL
+  #   value: your_database_url_here
+  # - key: NEXTAUTH_SECRET
+  #   generateValue: true # Render can generate a secure secret for you
+  # - key: NEXT_PUBLIC_SUPABASE_URL
+  #   value: your_supabase_url_here
+  # - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+  #   value: your_supabase_anon_key_here 
