@@ -1,6 +1,8 @@
 # Aether Apparel
 
 A modern e-commerce platform built with Next.js, featuring a responsive design and comprehensive shopping experience.
+<img width="1651" alt="Screenshot 2025-06-10 at 10 38 26 PM" src="https://github.com/user-attachments/assets/ca4648be-6d53-4f9f-94f2-ad6d9aa7dd2c" />
+
 
 ## Features
 
@@ -25,7 +27,11 @@ A modern e-commerce platform built with Next.js, featuring a responsive design a
 
 ### Admin Features
 - Secure admin dashboard
+  <img width="1658" alt="Screenshot 2025-06-10 at 10 36 21 PM" src="https://github.com/user-attachments/assets/19b4299e-e35d-4ec3-88e5-38858b38da43" />
+
 - Product management (CRUD operations)
+  <img width="1674" alt="Screenshot 2025-06-10 at 10 37 06 PM" src="https://github.com/user-attachments/assets/ce83bbe6-67c8-402a-b3d3-d5fdff290861" />
+
 - Order management
 - User management
 - Inventory tracking
